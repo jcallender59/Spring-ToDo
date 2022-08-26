@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh '''
                 ssh -i ~/.ssh/id_rsa jenkins@35.178.16.249 << EOF
-                git clone https://github.com/PCMBarber/Spring-ToDo.git
+                git clone https://github.com/jcallender59/Spring-ToDo.git
                 cd Spring-ToDo
                 git checkout development
                 git pull
